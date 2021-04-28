@@ -20,11 +20,11 @@
             <div class="cd-container">
 
                 <!-- single cd -->
-                <div v-for="number in 10" class="cd">
-                    <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="">
-                    <div class="cd-title">NEW JERSEY</div>
-                    <div class="cd-author">Bon Jovi</div>
-                    <div class="cd-year">1998</div>
+                <div v-for="cd in cds" class="cd">
+                    <img :src="cd.poster" alt="cd.title">
+                    <div class="cd-title">{{cd.title}}</div>
+                    <div class="cd-author">{{cd.author}}</div>
+                    <div class="cd-year">{{cd.year}}</div>
                 </div>
 
             </div>
