@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: #2e3b46;
+    padding: 10px;
+}
+
+header img {
+    width: 45px;
+}
+
+main {
+    background-color: #1e2e3c;
+}
+
+.cd-container {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cd {
+    width: calc( 100% / 8 );
+    text-align: center;
+    background-color: #2e3b46;
+    padding: 20px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.cd-title {
+    color: white;
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+.cd-author,
+.cd-year {
+    color: gray;
+    font-size: 18px;
+}

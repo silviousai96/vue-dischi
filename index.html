@@ -12,6 +12,23 @@
 <body>
     <div id="root">
         
+        <header>
+            <img src="download.png" alt="">
+        </header>
+
+        <main>
+            <div class="cd-container">
+
+                <!-- single cd -->
+                <div v-for="number in 10" class="cd">
+                    <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="">
+                    <div class="cd-title">NEW JERSEY</div>
+                    <div class="cd-author">Bon Jovi</div>
+                    <div class="cd-year">1998</div>
+                </div>
+
+            </div>
+        </main>
     </div>
     
     <script src="js/script.js"></script>
